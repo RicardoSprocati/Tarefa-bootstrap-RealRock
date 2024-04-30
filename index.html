@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <title>Real Rock</title>
+</head>
+<body>
+    <header class="text-bg-dark">
+        <div class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <h1>True Rock Event</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav id="nav" class="collapse navbar-collapse justify-content-end">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="text-white nav-link active" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-white nav-link " href="#bandas">Bandas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-white nav-link" href="#card">Card</a>
+                        </li>
+                        <li class=" nav-item">
+                            <a class="text-white nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="sobre">
+        <div class="container">
+            <div class="pt-3 content pb-2 border-bottom border-dark border-3">
+                <img src="./imagens/rock-in-rio-fogos.jpg" alt="">
+            <div class="descriçao">
+                <h2 class="border-bottom border-dark p-3 border-3">Sobre Real Rock</h2>
+                <ul>
+                    <li>
+                        <p class="pt-2">Bem-vindo ao <strong>Real Rock</strong>, seu destino online definitivo para os melhores shows de rock! Aqui, os amantes da música encontram uma plataforma vibrante e dinâmica, dedicada exclusivamente ao universo do rock 'n' roll. Desde lendas consagradas até as mais promissoras bandas emergentes, nosso site oferece uma ampla gama de eventos ao vivo para satisfazer todos os gostos e paixões do mundo do rock.</p>
+                    </li>
+                </ul>
+            </div>
+            </div>    
+        </div>
+    </section>
+    <section id="bandas">
+        <div class="container pt-3">
+            <div id="slide" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="2000" class="carousel-item active">
+                        <img src="./imagens/Angra-1.jpg" alt="">
+                    </div>
+                    <div data-bs-interval="2000" class="carousel-item active">
+                        <img src="./imagens/oficina-g3-1.jpg" alt="">
+                    </div>
+                    <div data-bs-interval="2000" class="carousel-item active">
+                        <img src="./imagens/System-of-a-Down-1.jpg" alt="">
+                    </div>
+                </div>
+                <button data-bs-slide="prev" data-bs-target="#slide" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-slide="next" data-bs-target="#slide" class="carousel-control-next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-slide-to="0" data-bs-target="#slide"></button>
+                    <button type="button" data-bs-slide-to="1" data-bs-target="#slide"></button>
+                    <button type="button" data-bs-slide-to="2" data-bs-target="#slide"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="card">
+        <div class="container pt-3">
+            <div>
+                <h2 class="text-center p-3 border-bottom border-dark border-3">Cards</h2>
+            </div>
+            <div class="row pt-3">
+                <div class="grid">
+                    <div class="card text-bg-dark">
+                        <div class="card-header">Show</div>
+                        <img src="./imagens/oficina-g3-2.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Show do Oficina g3</h4>
+                            <p> A banda vem com sua turnê de 20 anos do álbum Humanos. Clique abaixo e confira os locais que a banda irá passar</p>
+                            <div>
+                                <a href="#" class="btn btn-primary">Saiba mais</a>
+                                <button class="btn btn-success">Ingresso</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card text-bg-dark">
+                        <div class="card-header">Show</div>
+                        <img src="./imagens/Angra-2.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Show do Angra</h4>
+                            <p>A banda vem com sua turnê do novo álbum Cycles of pain. Clique abaixo e confira os locais que a banda irá passar </p>
+                            <div>
+                                <a href="#" class="btn btn-primary">Saiba mais</a>
+                                <button class="btn btn-success">Ingresso</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card text-bg-dark">
+                        <div class="card-header">Show</div>
+                        <img src="./imagens/Sistem-of-Down-2.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Show do System of a Down</h4>
+                            <p>A banda vem com sua turnê aqui no Brasil. Clique abaixo e confira os locais que a banda irá passar</p>
+                            <div>
+                                <a href="#" class="btn btn-primary">Saiba mais</a>
+                                <button class="btn btn-success">Ingresso</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contato">
+        <div class="container p-3">
+            <div>
+                <h2 class="text-center p-3 border-bottom border-dark border-3">Contato</h2>
+            </div>
+            <div class="bloco">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email">
+                <label for="fone">Telefone:</label>
+                <input type="tel" id="fone">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem"></textarea>
+                <div class="pt-3">
+                    <button class="btn btn-primary">Enviar</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="text-bg-dark">
+        <div>
+            <p>2024 &copy; Real Rock- Todos direitos reservados</p>
+        </div>
+        <ul class="logos">
+            <li>
+                <a >
+                    <img src="./imagens/facebook.png" alt="facebook">
+                    <img src="./imagens/instagram.png" alt="instagram">
+                    <img src="./imagens/youtube.png" alt="youtube">
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>
